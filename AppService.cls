@@ -1,4 +1,4 @@
-public with sharing class AppService {//hello
+public with sharing class AppService {//hello1
     @AuraEnabled
     public static String getAppName() {
         AppDefinition app = getActiveApp();
